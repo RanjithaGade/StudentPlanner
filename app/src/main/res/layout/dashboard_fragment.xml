@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#2c2c2c"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:id="@+id/section_label"
+        android:text="Today - Saturday, November 28, 2015"
+        android:textColor="#FFF"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/section_label"
+        android:id="@+id/upper_ll"
+
+        >
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="175dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="2.5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="2.5dp"
+            android:background="#1E878E"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/today_tv"
+                android:text="Today"
+                android:textSize="22sp"
+                android:textColor="#FFF"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/today_txt_1"
+                android:layout_below="@+id/today_tv"
+                android:text="0 classes today"
+                android:textSize="16sp"
+                android:textColor="#FFF"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/today_txt_2"
+                android:layout_below="@+id/today_txt_1"
+                android:text="0 exams today"
+                android:textSize="14sp"
+                android:textColor="#FFF"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="175dp"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="2.5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="2.5dp"
+            android:background="#1E508E"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tasks_tv"
+                android:text="Tasks"
+                android:textSize="22sp"
+                android:textColor="#FFF"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tasks_txt_1"
+                android:layout_below="@+id/tasks_tv"
+                android:text="0 tasks due today"
+                android:textSize="16sp"
+                android:textColor="#FFF"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tasks_txt_2"
+                android:layout_below="@+id/tasks_txt_1"
+                android:text="0 tasks due tomorrow"
+                android:textSize="14sp"
+                android:textColor="#FFF"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+
+                />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:orientation="horizontal"
+        android:id="@+id/lower_ll"
+        android:layout_below="@+id/upper_ll"
+        android:layout_marginTop="2.5dp"
+        >
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="175dp"
+            android:layout_weight="1"
+            android:layout_marginRight="2.5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2.5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#1A7865"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/events_tv"
+                android:text="Events"
+                android:textSize="22sp"
+                android:textColor="#FFF"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/events_txt_1"
+                android:layout_below="@+id/events_tv"
+                android:text="0 events today"
+                android:textSize="16sp"
+                android:textColor="#FFF"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/events_txt_2"
+                android:layout_below="@+id/events_txt_1"
+                android:text="0 events tomorrow"
+                android:textSize="14sp"
+                android:textColor="#FFF"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="175dp"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="2.5dp"
+            android:layout_marginTop="2.5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#8E1E7F"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/exams_tv"
+                android:text="Exams"
+                android:textSize="22sp"
+                android:textColor="#FFF"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/exams_txt_1"
+                android:layout_below="@+id/exams_tv"
+                android:text="0 exams today"
+                android:textSize="16sp"
+                android:textColor="#FFF"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/exams_txt_2"
+                android:layout_below="@+id/exams_txt_1"
+                android:text="0 events tomorrow"
+                android:textSize="14sp"
+                android:textColor="#FFF"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/classes_tv"
+        android:layout_below="@+id/lower_ll"
+        android:text="Classes"
+        android:textSize="20sp"
+        android:textColor="#474747"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/classes_container"
+        android:layout_below="@+id/classes_tv"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/no_classes_tv"
+
+            android:text="There are no classes or exams today."
+            android:textSize="16sp"
+            android:textColor="#767676"
+
+            />
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/classes_list"
+            ></ListView>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tasks_label_tv"
+        android:layout_below="@+id/classes_container"
+        android:text="Tasks"
+        android:textSize="20sp"
+        android:textColor="#474747"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tasks_container"
+        android:layout_below="@+id/tasks_label_tv"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/no_tasks_tv"
+
+            android:text="You have no overdue or incomplete tasks due with in next 3 days."
+            android:textSize="16sp"
+            android:textColor="#767676"
+
+            />
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tasks_list"
+            ></ListView>
+    </RelativeLayout>
+
+</RelativeLayout>
+    </ScrollView>
